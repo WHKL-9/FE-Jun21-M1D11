@@ -1,0 +1,41 @@
+h1{
+    color: darkblue;
+    font-size: 20px;
+    background-color: slategray;
+    text-decoration: underline;
+    font-family: arial; 
+    /* rmb to use web safe font */
+    text-align: center;
+}
+
+p { 
+    color:maroon;
+    line-height: 15px;
+    column-count: 2;
+}
+
+ul{
+    /* border width style and colour in one  */
+    border: 2px dashed black;
+    border-radius: 15px;
+}
+
+ul li{
+    list-style-type: square;
+    text-shadow: 2px 2px darkolivegreen ;
+}
+
+div{
+    border: 2px solid crimson;
+    margin: 20px;
+    padding: 20px;
+}
+
+span{
+    border: 2px solid turquoise;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    /* inline block to let element sit next to each other but at the same
+    time we want to take care of the top and bottom margin*/
+}
